@@ -1,17 +1,17 @@
 class Miniforge < Formula
   desc "Autonomous software factory — built on MiniForge Core"
   homepage "https://miniforge.ai"
-  version "2026.04.14.2"
+  version "2026.04.26.1"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/miniforge-ai/miniforge/releases/download/v2026.04.14.2/miniforge-macos-arm64"
-    sha256 "c828505a150d3600295c65e0ab32330eb4cf3a541ca384faeb320803c08b311a"
+    url "https://github.com/miniforge-ai/miniforge/releases/download/v2026.04.26.1/miniforge-macos-arm64"
+    sha256 "0427edf693237e30a6e213e06b7adacacd6c33a1e1428a12505f76d46325317e"
   end
 
   on_linux do
-    url "https://github.com/miniforge-ai/miniforge/releases/download/v2026.04.14.2/miniforge-linux-x86_64"
-    sha256 "2ae7109ad1b42007184be10d29168c5cd001125772785361424eb96eec44d3e4"
+    url "https://github.com/miniforge-ai/miniforge/releases/download/v2026.04.26.1/miniforge-linux-x86_64"
+    sha256 "e0a092ff7f42f33d0942f55d2d000ea2f762c251b831e7917cea53cea251760e"
   end
 
   depends_on "babashka"
