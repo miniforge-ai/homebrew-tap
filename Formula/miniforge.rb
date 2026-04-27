@@ -6,12 +6,12 @@ class Miniforge < Formula
 
   on_macos do
     url "https://github.com/miniforge-ai/miniforge/releases/download/v2026.04.26.1/miniforge-macos-arm64"
-    sha256 "0427edf693237e30a6e213e06b7adacacd6c33a1e1428a12505f76d46325317e"
+    sha256 "98f1a3b067f022aa40f4b47050117a98a572968f30a0e0cc1ea46532d6138787"
   end
 
   on_linux do
     url "https://github.com/miniforge-ai/miniforge/releases/download/v2026.04.26.1/miniforge-linux-x86_64"
-    sha256 "e0a092ff7f42f33d0942f55d2d000ea2f762c251b831e7917cea53cea251760e"
+    sha256 "c4b4a5ab8df8d748110de2592742e8482e681c619d30b079c843dd6a63d1e525"
   end
 
   depends_on "babashka"
